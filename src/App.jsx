@@ -1,13 +1,8 @@
-import './App.css'
+import "./App.css";
+import Main from "./Componentes/Main/Main.jsx";
 
 function App() {
-
-
-  return (
-    <>
-
-    </>
-  )
+  return <Main />;
 }
 
-export default App
+export default App;

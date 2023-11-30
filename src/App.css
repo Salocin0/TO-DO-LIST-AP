@@ -1,0 +1,29 @@
+.botonFlotante{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 30px;
+  height: 60px;
+  width: 60px;
+  border-radius: 100% !important;
+  border: white 1px solid !important;
+}
+
+.task-completed{
+  text-decoration: line-through;
+  background-color: lightgray;
+}
+
+.task-item{
+  border: gray solid 2px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+body{
+  background-image: url(./Componentes/img/rainbow-vortex.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
